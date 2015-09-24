@@ -1,8 +1,10 @@
 {
   "name": "angular-seed-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A basic AngularJS seed app with ESLint, Gulp, Karma, and Protractor and BrowserSync",
   "main": "",
+  "homepage": "https://github.com/bradberger/angular-seed-app",
+  "keywords": "angular angularjs eslint karma protractor browsersync seed app project",
   "scripts": {
     "test": "gulp test:ci",
     "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
@@ -11,6 +13,14 @@
   "license": "MPL-2.0",
   "dependencies": {
     "angular": "^1.4.6"
+  },
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/bradberger/angular-seed-app"
+  },
+  "bugs": {
+    "url": "https://github.com/bradberger/angular-seed-app/issues",
+    "email": "brad@bradb.net"
   },
   "devDependencies": {
     "browser-sync": "^2.9.6",

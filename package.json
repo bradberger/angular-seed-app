@@ -1,7 +1,7 @@
 {
-  "name": "js-seed-app",
+  "name": "angular-seed-app",
   "version": "0.1.0",
-  "description": "A basic seed app with ESLint, Gulp, Karma, and Protractor.",
+  "description": "A basic AngularJS seed app with ESLint, Gulp, Karma, and Protractor and BrowserSync",
   "main": "",
   "scripts": {
     "test": "gulp test:ci",

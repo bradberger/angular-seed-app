@@ -1,0 +1,33 @@
+{
+  "name": "js-seed-app",
+  "version": "0.1.0",
+  "description": "A basic seed app with ESLint, Gulp, Karma, and Protractor.",
+  "main": "",
+  "scripts": {
+    "test": "gulp test:ci",
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
+  },
+  "author": "Brad Berger <brad@bradb.net> (https://bradb.net)",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "angular": "^1.4.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "del": "^2.0.2",
+    "eslint": "~1.5.1",
+    "gulp": "~3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "~1.0.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.4.1",
+    "jasmine-core": "~2.3.4",
+    "karma": "~0.13.10",
+    "karma-chrome-launcher": "~0.2.0",
+    "karma-firefox-launcher": "~0.1.6",
+    "karma-jasmine": "~0.3.6",
+    "protractor": "^2.2.0",
+    "run-sequence": "^1.1.4"
+  }
+}

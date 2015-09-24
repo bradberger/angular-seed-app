@@ -1,0 +1,19 @@
+languages:
+  JavaScript: true
+
+exclude_paths:
+- "test/*"
+- "gulpfile.js"
+- "karma.conf.js"
+- "protractor.conf.js"
+- "protractor-ci.conf.js"
+- "dist/*"
+- "website/*"
+
+engines:
+  eslint:
+    enabled: true
+
+ratings:
+  paths:
+  - src/**
